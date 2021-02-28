@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Layout</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .heading {
+            width: 100%;
+            height: 80px;
+            background-color: #84d8bc;
+            display: flex;
+        }
+
+        .nav-left {
+            width: 60%;
+
+        }
+
+        .nav-right {
+            width: 40%;
+            text-align: right;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: 800;
+            font-size: 1.3rem;
+        }
+
+        nav ul li {
+            display: inline-block;
+            padding: 2rem;
+        }
+
+        .image-titel-sec {
+            width: 100%;
+            display: flex;
+        }
+
+        .title-contain {
+            width: 30%;
+            height: 300px;
+        }
+
+        .image-contain {
+            width: 70%;
+            height: 300px;
+            background-image: url(DM_7.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* card section start */
+        .card-section {
+            width: 100%;
+            display: flex;
+        }
+
+        .card {
+            width: 25%;
+            height: 200px;
+            margin: 1%;
+            background-color: #84d8bc;
+            text-align: center;
+            font-weight: 800;
+            font-size: 2rem;
+        }
+
+        /* card section end */
+        /* titel-img-ad-se section end */
+        .titel-img-ad-sec {
+            width: 100%;
+            display: flex;
+        }
+
+        .titel-part {
+            width: 50%;
+            height: 300px;
+            margin: 1%;
+            background-color: #84d8bc;
+        }
+
+        .titel-part .text {
+            margin-top: 4rem;
+            padding: 2rem;
+        }
+
+        .image-part {
+
+            width: 25%;
+            height: 300px;
+            margin: 1%;
+        }
+
+        .add-part {
+            width: 25%;
+            height: 300px;
+            margin: 1%;
+            background-color: #84d8bc;
+            text-align: center;
+            padding: 2rem;
+        }
+
+
+        .ser a {
+            margin-top: 2rem;
+            padding: 2rem;
+            text-decoration: none;
+            border: 1px sold orange;
+        }
+
+        .service,
+        .FAQ {
+            width: 50%;
+            margin: 0 auto;
+            height: 50px;
+            border: 2px solid orange;
+            border-radius: 15px;
+            margin-bottom: 1rem;
+            background-color: white;
+            padding-top: 1rem;
+        }
+
+        .adv {
+            width: 50%;
+            margin: 0 auto;
+            height: 100px;
+            border: 2px solid orange;
+            border-radius: 15px;
+            margin-bottom: 1rem;
+            background-color: white;
+            padding-top: 1rem;
+        }
+
+        footer {
+            padding-top: 3rem;
+            width: 100%;
+            height: 120px;
+            text-align: center;
+            color: white;
+            background-color: rgba(6, 6, 46, 0.993);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <div class="nav-left">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="nav-right">
+            <nav>
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="image-titel-sec">
+        <div class="title-contain">
+            <h1>Lorem ipsum dolor</h1>
+            <p>value change korbi
+                You sent Today at 10:59 AM
+                tag p er jagai onno kiso disi
+
+                Ovi sent Today at 11:00 AM
+                assa
+                You sent Today at 11:00 AM
+                r function er name tau cng korbi</p>
+        </div>
+        <div class="image-contain">
+            <!-- <h2><img src="DM_7.jpg" alt="DM_7" width="700px" height="300px"></h2> -->
+        </div>
+    </div>
+
+    <div class="card-section">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+        <div class="card">Card 4</div>
+    </div>
+
+    <div class="titel-img-ad-sec">
+        <div class="titel-part">
+            <div class="text">
+                <h2>Lorem, ipsum dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione temporibus ad eius placeat saepe
+                    debitis
+                    enim in! Earum aliquid illo soluta esse sed dolor in cum, blanditiis perferendis quod minus!</p>
+            </div>
+        </div>
+        <div class="image-part">
+            <img src="DM_7.jpg" alt="" width="450px" height="300px">
+        </div>
+        <div class="add-part">
+            <div class="service">
+                <p>Service</p>
+            </div>
+            <div class="FAQ">
+                <p>FAQ</p>
+            </div>
+            <div class="adv">
+                <p>Show Add</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2021 by <a href="https://www.facebook.com/siam.khushnobish" target="_blank">Siam Khushnobish </a></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Even </title>
+</head>
+
+<body style="margin-top:10rem;">
+    <p>Please Click the button and give a valid value.</p>
+
+    <button onclick="oddEvenCalculator()">Find Odd or Even</button>
+
+    <p id="displayValue"></p>
+
+    <footer style="text-align:center;">
+        <p>© 2021 by <a href="https://www.facebook.com/siam.khushnobish" target="_blank">Siam Khushnobish </a></p>
+    </footer>
+
+    <script>
+        function oddEvenCalculator() {
+            var number = parseInt(prompt("Please enter a number"));
+            if (number) {
+                if (number % 2 == 0) {
+                    document.getElementById("displayValue").innerHTML =
+                        "The number " + number + " is EVEN";
+                }
+                else {
+                    document.getElementById("displayValue").innerHTML =
+                        "The number " + number + " is ODD";
+                }
+            }
+            else {
+                document.getElementById("displayValue").innerHTML =
+                    "Pleace enver a valid value";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
